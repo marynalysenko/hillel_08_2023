@@ -6,3 +6,4 @@
 
 ## task 1 
 Prepare a Pull Request on GitHub. For this, use the code-quality branch, which needs to be created beforehand. GitHub Actions should include checks for: black, isort, flake8 / ruff.
+
