@@ -12,4 +12,5 @@ class B(A):
 class D(A, B):  # MRO error
     pass
 
+
 print(D())
