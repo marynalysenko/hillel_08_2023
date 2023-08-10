@@ -18,6 +18,7 @@ ROOT_DIR = Path(__file__).absolute().parent
 # file = open(ROOT_DIR / "rockyou.txt")
 # lines: list[str] = file.readlines()
 # print(len(lines))
+# 14 344 391
 
 ###############################
 
@@ -27,6 +28,7 @@ ROOT_DIR = Path(__file__).absolute().parent
 
 # text: str = file.read() #читає файл цілком і забиває в 1 файл
 # print(len(text))
+# 139 836 129
 
 ###############################
 
