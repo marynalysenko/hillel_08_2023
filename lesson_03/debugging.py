@@ -4,5 +4,5 @@ def foo(n: int) -> None:
     else:
         print("> 10")
 
+
 foo(16)
-           
