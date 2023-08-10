@@ -45,11 +45,13 @@
 ###############################
 
 #example 5
-names: list[str] = ["1","2"]
-_names = iter(names)
-print(_names.__next__()) 
-print(_names.__next__()) 
+#names: list[str] = ["1","2"]
+#_names = iter(names)
+#print(_names.__next__()) 
+#print(_names.__next__()) 
 #print(_names.__next__())  # StopIteration
+
+###############################
 
 #example 6
 
