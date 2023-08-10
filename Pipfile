@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+black = "~=23.7"
+flake8 = "~=6.1"
+isort = "~=5.12"
 
 [requires]
 python_version = "3.8"
