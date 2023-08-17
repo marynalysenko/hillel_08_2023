@@ -22,6 +22,7 @@ results: list[str] = []
 # недолік в тому що проходячись построчно тримаємо в памяті весь
 # список поки юзер не дойде до кінця
 
+
 # example 2
 def get_file_lines(filename: Path):
     file = open(filename)
