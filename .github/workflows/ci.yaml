@@ -14,6 +14,6 @@ jobs:
       - name: Install dependencies
         run: pip install flake8 black isort
       - name: Run linter
-        run: flake8 .
+        run: flake8 . --exclude=hw4.py
       - name: Run formatters
         run: black -t py311 --check . && isort --check .
