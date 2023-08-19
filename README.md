@@ -30,3 +30,11 @@
 - After reading the entire file, the application should return both the `results` and the count of added lines.
 
 [View Pull Request](https://github.com/marynalysenko/hillel_08_2023/pull/4)
+
+## Task 4: Functions (lesson 5)
+Complete all functions:
+- show_players
+- add_player
+- remove_player
+
+[View Pull Request](https://github.com/marynalysenko/hillel_08_2023/pull/6)
