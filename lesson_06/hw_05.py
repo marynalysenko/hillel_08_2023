@@ -1,4 +1,4 @@
-######     "Reverse string" decorator      ######
+# ******    "Reverse string" decorator      ******#
 
 from functools import wraps  # треба для сигнатури
 
@@ -13,6 +13,7 @@ def reverse_string(func):
         if isinstance(result, str):
             return result[::-1]
         return None
+
     return wrapper
 
 
@@ -30,7 +31,7 @@ def get_university_founding_year() -> int:
 # TEST OUPUT
 print(get_university_name(), get_university_founding_year(), sep="\n")
 
-######     "Replace dict value" decorator      ######
+# ******   "Replace dict value" decorator      ******#
 
 # MODIFY THIS DECORATOR
 def mask_data(target_key: str, replace_with: str = "*"):
