@@ -3,7 +3,6 @@
 from functools import wraps  # треба для сигнатури
 
 
-# MODIFY THIS DECORATOR
 def reverse_string(func):
     """If output is a string, reverse it. Otherwise, return None."""
 
@@ -33,10 +32,9 @@ print(get_university_name(), get_university_founding_year(), sep="\n")
 
 # ******   "Replace dict value" decorator      ******#
 
-# MODIFY THIS DECORATOR
+
 def mask_data(target_key: str, replace_with: str = "*"):
     """Replace the value of a dictionary with a 'masked' version."""
-
 
     def decorator(func):
         @wraps(func)
