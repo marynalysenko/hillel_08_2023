@@ -38,3 +38,13 @@ Complete all functions:
 - remove_player
 
 [View Pull Request](https://github.com/marynalysenko/hillel_08_2023/pull/6)
+
+## Task 5: Decorators (lesson 6)
+- Check the [code](https://github.com/parfeniukink/hillel_08_2023/blob/main/homeworks/decorators.md)
+- The task of the "Reverse string" decorator is to create a decorator that, when applied to functions, reverses the output of the function if the output is a string. If the output is not a string, the decorator should return None.
+- The task of the "Replace dict value" decorator is to create a decorator that takes a target key and an optional replacement value. When applied to functions that return dictionaries, the decorator should replace the value of the specified target key in the returned dictionary with the provided replacement value.
+
+[View Pull Request](https://github.com/marynalysenko/hillel_08_2023/pull/7)
+
+
+
