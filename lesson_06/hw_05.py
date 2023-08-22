@@ -37,6 +37,7 @@ print(get_university_name(), get_university_founding_year(), sep="\n")
 def mask_data(target_key: str, replace_with: str = "*"):
     """Replace the value of a dictionary with a 'masked' version."""
 
+
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
