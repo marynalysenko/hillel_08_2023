@@ -46,5 +46,11 @@ Complete all functions:
 
 [View Pull Request](https://github.com/marynalysenko/hillel_08_2023/pull/7)
 
+## Task 6: Context managers (lesson 7)
+- Check the [code](https://github.com/parfeniukink/hillel_08_2023/blob/main/lesson_07/hw.md)
+- Write a context manager that measures and logs the execution time of a code block inside it. Use the time module for timing and the logging module for logging.
+- Test it with different pieces of code.
+
+[View Pull Request](https://github.com/marynalysenko/hillel_08_2023/pull/9)
 
 
